@@ -1,0 +1,6 @@
+git reflog
+git checkout SHA
+git log --oneline -5
+git checkout git-merge
+git reset --hard SHA
+git log --oneline -5
