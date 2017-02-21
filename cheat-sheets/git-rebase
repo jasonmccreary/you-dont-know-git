@@ -1,0 +1,5 @@
+git checkout git-rebase
+git log --oneline -5
+git rebase -i HEAD~5
+git log --oneline -5
+git reset --hard origin/git-rebase
