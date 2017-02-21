@@ -1,0 +1,21 @@
+date >> README.md
+date >> cheat-sheets/git-stash
+touch new-file.txt
+git add README.md
+git status
+git stash
+git status
+git stash pop
+git add README.md
+git stash --keep-index
+git status
+git stash pop
+git stash --include-untracked
+git status
+git stash pop
+git stash --all
+git status
+git stash list
+git stash pop
+git stash save --all 'changes to demo git stash'
+git stash list
