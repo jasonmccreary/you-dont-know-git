@@ -1,0 +1,4 @@
+git checkout -b git-merge
+git merge --squash git-rebase
+git status
+git commit
