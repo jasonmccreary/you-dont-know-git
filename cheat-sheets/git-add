@@ -1,0 +1,14 @@
+git checkout git-add
+git reset HEAD~1
+git status
+git add -p
+git status
+git add -N .
+git status
+git add -p
+git reset HEAD
+
+git diff -w
+git status
+git add -i
+git status
