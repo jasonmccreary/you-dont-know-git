@@ -1,0 +1,13 @@
+git checkout -b update-readme
+echo "This is a sample Git repository used in my *You don't know Git* talk." >> README.md
+echo >> README.md
+echo 'Feel free to clone the repository and run through the *cheat-sheets*.' >> README.md
+git add README.md
+git commit -m 'Update README.md'
+git status
+git checkout master
+git merge update-readme
+git push origin master
+
+git checkout git-add
+git rebase master
