@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\User;
 use Illuminate\Support\Facades\Auth;
 use Socialite;
-use Illuminate\Routing\Controller;
+use App\Http\Controllers\Controller;
 
 class GitLabController extends Controller
 {
@@ -31,6 +31,8 @@ class GitLabController extends Controller
         } catch (\Exception $e) {
             return Redirect::to('auth/gitlab');
         }
+
+        dd($gitlab_user);
 
         $user = User::createOrUpdateGitLabUser($gitlab_user);
 
