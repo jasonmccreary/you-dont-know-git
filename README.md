@@ -14,4 +14,5 @@ The goal of this exercise is to simulate working with remote repositories, makin
 6. Commit your changes
 7. Publish your changes to your fork
 8. Open a "Pull Request" on GitHub to submit your changes to the upstream repository.
-
+9. Now rebase your branch with the latest work from upstream/master (check with "fetch")
+10. Update your PR to reflect these latest changes...
