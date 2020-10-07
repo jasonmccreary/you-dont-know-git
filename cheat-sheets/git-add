@@ -1,14 +1,30 @@
 git checkout git-add
 git reset HEAD~1
 git status
+git add .
+git status
+git reset
+cd subdir
+git add .
+git status
+git reset
+git add -A
+git status
+git reset
+cd ..
+git commit -am 'All in one command'
+git status
+git reset HEAD~1
+git status
 git add -p
 git status
 git add -N .
 git status
 git add -p
 git reset HEAD
-
 git diff -w
 git status
 git add -i
+git status
+git add -u
 git status
