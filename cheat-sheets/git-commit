@@ -1,7 +1,7 @@
 git checkout -b git-commit
 echo "This is a sample Git repository used in my *You don't know Git* talk." >> README.md
 git add README.md
-git commit -m 'Updating README.md'
+git commit -m 'WIP'
 git status
 echo >> README.md
 echo 'Feel free to clone the repository and run through the *cheat-sheets*.' >> README.md
