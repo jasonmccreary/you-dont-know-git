@@ -1,4 +1,9 @@
 git checkout -b git-merge
-git merge --squash git-rebase
+git merge git-commit
+git log --oneline -5
+git reset --hard origin/git-merge
+git merge git-rebase
 git status
+cat README.md
 git commit
+git merge --help
